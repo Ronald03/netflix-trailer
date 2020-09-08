@@ -6,10 +6,11 @@ import requests from "./requests";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner />
       {/* <Nav /> */}
       <Row
+        className="row"
         title="Netflix Orginals"
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow

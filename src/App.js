@@ -3,12 +3,16 @@ import "./App.css";
 import Row from "./Row.js";
 import Banner from "./Banner.js";
 import requests from "./requests";
+import Nav from "./Nav.js";
 
 function App() {
   return (
     <div className="app">
-      <Banner />
       {/* <Nav /> */}
+      <Nav />
+
+      <Banner />
+
       <Row
         className="row"
         title="Netflix Orginals"
